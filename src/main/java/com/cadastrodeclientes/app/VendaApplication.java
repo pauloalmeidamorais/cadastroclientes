@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@ComponentScan (basePackages = {"com.cadastrodeclientes.app.repository", "com.cadastrodeclientes.app.service"})
+@ComponentScan (basePackages = {
+		"com.cadastrodeclientes.app.repository",
+		"com.cadastrodeclientes.app.service",
+		"com.cadastrodeclientes.app.configuration"
+})
 @RestController
 public class VendaApplication {
 
