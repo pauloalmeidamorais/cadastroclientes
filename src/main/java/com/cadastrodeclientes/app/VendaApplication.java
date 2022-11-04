@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VendaApplication {
 
-	@GetMapping("/hello")
-	public String helloWorld(){
-		return "hello world";
+	@GetMapping("/home")
+	public String homeMap(){
+		return "Deu certo";
 	}
 
 	public static void main(String[] args) {
